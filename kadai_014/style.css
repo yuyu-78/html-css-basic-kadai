@@ -1,0 +1,32 @@
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+/* google fontからコピペした//って何？htmlのlinkに書く順番は自分のcssが一番先でOK？ */
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+html {
+  font-size: 20px;
+}
+/* 文字影：横・縦・ぼかし・色 */
+h1 {
+  font-size: 2em;
+  letter-spacing: 1.2em;
+  text-shadow: 1px 2px 3px #808080;
+  border-bottom: 3px solid rgb(115, 115, 114);
+}
+.font_skyblue {
+  color: skyblue;
+}
+.font_pink {
+  color: rgb(255, 192, 203);
+}
+#basic p {
+  font-weight: bold;
+}
