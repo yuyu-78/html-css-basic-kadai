@@ -2,13 +2,13 @@ body {
   font-family: "Arial", "Meiryo", sans-serif;
   text-align: center;
 }
-/* google fontからコピペした//って何？htmlのlinkに書く順番は自分のcssが一番先でOK？ */
+/* google fontからコピペした//って何？htmlのlinkに書く順番は自分のcssが一番先でOK？
 // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 700
-.josefin-sans-<uniquifier> {
+// <weight>: Use a value from 100 to 700 */
+.josefin-sans {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 600;
   font-style: normal;
 }
 html {
@@ -16,7 +16,7 @@ html {
 }
 /* 文字影：横・縦・ぼかし・色 */
 h1 {
-  font-size: 2em;
+  font-size: 2rem;
   letter-spacing: 1.2em;
   text-shadow: 1px 2px 3px #808080;
   border-bottom: 3px solid rgb(115, 115, 114);
